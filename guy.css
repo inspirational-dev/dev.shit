@@ -67,6 +67,8 @@ header{
     background-color: #F5FCFF;
     height: 800px;
     margin-top: 20px;
+    /* max-width: 2800px; */
+    width: 100%;
 
     .head{
     margin-top: 150px;
@@ -87,8 +89,10 @@ header{
     img{
         align-items: center;
         margin-top: 50px;
-        width: 917px;
-        height: 729px;
+        max-width:  917px;
+        width: 100%;
+        max-height: 729px;
+        /* height: 100%; */
     }
     .hey{
         margin-top: 80px;
