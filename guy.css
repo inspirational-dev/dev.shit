@@ -15,6 +15,7 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
      img{
         width: 186px;
@@ -26,7 +27,7 @@ nav{
      }
      .nav-bar{
         display: flex;
-        justify-content: ;
+        
      }
      ul{
         display: flex;
@@ -65,21 +66,28 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #F5FCFF;
+    /* background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat; */
+    align-items: center;
+    justify-items: center;
     height: 800px;
     margin-top: 20px;
     /* max-width: 2800px; */
     width: 100%;
 
     .head{
-    margin-top: 150px;
-    margin-left: 100px;
+    /* margin-top: 150px;
+    margin-left: 100px; */
     }
     p{
-        width: 620px;
+        max-width: 620px;
+        width: 100%;
     }
     h2{
         font-size: 74px;
-        width: 790px;
+        max-width: 790px;
+        width: 100%;
         margin-bottom: 30px;   
         color: #282938;
  }
@@ -94,7 +102,7 @@ header{
         max-height: 729px;
         /* height: 100%; */
     }
-    .hey{
+    .hiy{
         margin-top: 80px;
         margin-bottom: 20px;
     }
@@ -108,24 +116,31 @@ header{
        margin-left: 120px;
     }
 }
+
 .Expertise{
       display: flex;
        justify-content: center;
        align-items: center;
        gap: 40px;
        margin-top: 30px;
+       margin-left: 50px;
+       margin-right: 50px;
        .ife{
         background-color: #F5FCFF;
         margin-top: 30px;
-        width: 405px;
+        max-width:405px;
+        width: 100%;
+        padding-bottom: 10px;
         height: 300px;
         margin-top: 20px;
         border-radius: 8px;
         box-shadow: 6px 6px 2px  #006B6A;
        }
-around
+
  
        img{
+        /* max-width: 815px; */
+        /* width: 100%; */
         margin-top: 15px;
        }
     .hey{
@@ -136,13 +151,14 @@ around
     p{
         font-size: 21px;
        text-align: center;
-       margin-right: 50px;
+       margin-right: 35px;
+       margin-left: 35px;
     }
 }
       .exper{
         font-size: 64px;
         margin-left: 100px;
-        margin-top: 50px;
+        margin-top: 20px;
         color: #282938;
        }
        .exper:hover{
@@ -153,14 +169,21 @@ around
        .about-me{
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 30px;
         img{
             margin-top: 50px;
-            width: 815px;
+            max-width: 815px;
+            width: 100%;
             height: 996px;
         }
+        .sax{
+          display: none;
+        }
         .about{
-            margin-top: 400px;
-            margin-left: 50px;
+            /* margin-top: 300px; */
+            /* margin-left: 50px; */
             h3{
                 margin-bottom: 40px;
                 text-decoration: underline solid;
@@ -168,7 +191,8 @@ around
                 font-size: 50px;
             }
             p{
-                width: 700px;
+                max-width: 700px;
+                width: 100%;
             }
             .yo{
                 margin-top: 20px;
@@ -194,7 +218,8 @@ around
         align-items: center;
         color: #fff;
         background-color: red;
-        width:180px;
+        max-width:180px;
+        width: 100%;
         border-radius:8px;
         margin-left:900px ; 
         .abou{
@@ -222,7 +247,8 @@ around
             box-shadow: 6px 6px 2px  #E5E5E5;;
         }
        img{
-        width: 550px;
+        max-width: 550px;
+        width: 100%;
         height: 400px;
         border-radius: 10px;
        }
@@ -232,12 +258,14 @@ around
        }
        p{
         margin-top: 20px;
-        width: 490px;
+        max-width: 490px;
+        width: 100%;
        }
            .ram{
         border: none;
         height: 1px;  
-        width: 100px;       
+        max-width: 100px;  
+        width: 100%;     
         background: #5E3BEE;     
         margin: 5px;
         margin-left: 20px;
@@ -277,7 +305,8 @@ around
        /* gap: 40px; */
        margin-top: 170px;
        .David{
-        width: 450px;
+        max-width: 450px;
+        width: 100%;
         border: #006B6A solid;
         border-radius: 10px;
         padding: 20px;
@@ -299,7 +328,8 @@ around
        .star{
         display: block;
         margin-top: 15px;
-        width: 155px;
+        max-width: 155px;
+        width: 100%;
         height: 25px;
         margin-bottom: 15px;
        }
@@ -309,7 +339,8 @@ around
         display: flex;
         align-items: center;
         .avatar{
-            width: 64px;
+           max-width: 64px;
+           width: 100%;
             height: 64px;
         }
         p{
@@ -329,6 +360,7 @@ around
     }
 .cont{
   max-width: 700px;
+  width: 100%;
   margin: 80px auto;
   text-align: center;
   font-family: "poppins", sans-serif;
@@ -343,6 +375,9 @@ around
     margin-bottom: 35px;
   }
 }
+
+
+
 form{
   display: flex;
   flex-direction: column;
@@ -391,7 +426,6 @@ footer{
 .foot{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
      /* img{
         width: 186px;
         height: 40px;
@@ -418,7 +452,7 @@ footer{
      }
       .png{
         margin-left: 50px;
-           width: 186px;
+           max-width: 186px;
         height: 40px;
         margin-left: 30px;
         margin-top: 80px;
@@ -455,4 +489,7 @@ footer{
         font-size: 16px;
       }
  
+    }
+    .lost{
+      display: none;
     }
