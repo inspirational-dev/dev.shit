@@ -17,10 +17,13 @@
     .ife{
         /* height: 300px; */
     }
+    .hey{
+        font-size: 29px;
+    }
     p{
         margin-left: 30px;
         margin-left: 30px;
-        font-size: 17px;
+        font-size: 15px;
         margin-bottom: 20px;
         /* max-width: 340px; */
         /* width: 100%; */
@@ -84,7 +87,7 @@
      .ife{
         /* height: 300px; */
         .hey{
-            font-size: 27px;
+            font-size: 24px;
         }
     p{
         margin-left: 15px;
@@ -331,7 +334,7 @@
       flex-direction: column;
        height: 930px;
        /* gap: 40px; */
-       margin-left: 0;
+       margin-left: 50px;
        margin-right: 50px;
        margin-top: 100px;
        .David{
@@ -511,12 +514,14 @@
     }
  }
 
+.lere{
+    margin-left: 40px;
+        margin-right: 40px;
 
-  .lere{
-    margin-left: 50px;
-    /* margin-right: 20px; */
-  max-width: 200px;
-    width: 100%;
+}
+  input{
+  max-width: 300px;
+    /* width: 100%; */
 
 }
 select{
@@ -529,7 +534,7 @@ textarea{
     max-width: 400px;
       width: 100%;
     margin-left: 50px;
-    /* margin-right: 20px; */
+    margin-right: 20px;
 }
 label{
   margin-left: 40px;
@@ -674,12 +679,13 @@ label{
     background-color: #F5FCFF;
     }
  }
-
-  .lere{
+.lere{
     margin-left: 20px;
     margin-right: 20px;
-  max-width: 50px;
+      input{
+  max-width: 250px;
   width: 100%;
+}
 }
 select{
     max-width: 400px;
@@ -694,11 +700,11 @@ textarea{
     margin-right: 20px;
 }
 label{
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 .submit{
-    /* margin-left: 200px; */
-    max-width: 200px;
+    margin-left: 200px;
+    /* max-width: 200px; */
       width: 100%;
     font-size: 18px;
     font-weight: bold;
@@ -712,3 +718,120 @@ footer{
 }
 
 }
+
+
+@media(max-width:480px){
+             .mobile-button{
+                background-color: #fff;
+                max-width: 250px;
+                color: #5E3BEE;
+                border: #5E3BEE solid;
+                /* border-radius: 25px; */
+               
+            }
+            .mobile-button:hover{
+                color: #fff;
+                background-color: #5E3BEE;
+            }
+          .Expertise{
+                display: flex;
+                flex-direction: column;
+                      gap: 40px;
+       margin-top: 20px;
+       margin-left: 30px;
+       margin-right: 30px;
+       .ife{
+        background-color: #F5FCFF;
+        margin-top: 30px;
+        max-width:305px;
+        width: 100%;
+        padding-bottom: 10px;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 6px 6px 2px  #006B6A;
+       }
+
+ 
+       img{
+        /* max-width: 815px; */
+        /* width: 100%; */
+        margin-top: 15px;
+       }
+    .hey{
+        font-size: 27px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+       text-align: center;
+       margin-right: 30px;
+       margin-left: 30px;
+    }                   
+  }
+            .my-customer{
+      display: flex;
+      flex-direction: column;
+       height: 930px;
+       /* gap: 40px; */
+       margin-left: 50px;
+       /* margin-right: 50px; */
+       margin-top: 100px;
+       .David{
+        max-width: 450px;
+        width: 100%;
+        border: #006B6A solid;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        /* box-shadow: 6px 6px 2px  #006B6A; */
+        /* height: 96px; */
+        /* margin-top: 20px; */
+       }
+         h3{
+        color: #282938;
+        font-size: 27px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 14px;
+      }
+           }
+         
+         
+           footer{
+            background-color: #fff;
+            height: 0;
+          }
+          .png{
+            /* margin-top: 10px; */
+          }
+          .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 5px;
+          }
+
+          /* .icon{
+            width: 10px;
+          } */
+          /* .png{
+            max-width: 100px;
+          } */
+           .line{
+            display: none;
+           }
+
+          .made{
+            p{
+                text-align: center;
+                margin-left: 100px;
+                margin-bottom: 20px;
+            }
+          a{
+            display: none;
+          }
+        }
+    }

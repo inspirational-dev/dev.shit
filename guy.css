@@ -113,8 +113,31 @@ header{
        background-color: #5E3BEE;
        border: #5E3BEE;
        margin-top: 30px;
-       margin-left: 120px;
+       /* margin-left: 120px; */
     }
+}
+
+.p-container{
+  display: inline-block;
+}
+
+     .hiy{
+        margin-top: 80px;
+        margin-bottom: 20px;
+        border-right: 5px solid;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation:
+        typing 5s steps(70),
+        cursor .4s step-end infinite alternate;
+    }
+/* -----cursor blinking */
+@keyframes cursor {
+  50% {border-color: transparent;}
+}
+@keyframes typing {
+  from {width: 0;}
 }
 
 .Expertise{
@@ -453,12 +476,14 @@ footer{
       .png{
         margin-left: 50px;
            max-width: 186px;
+           width: 100%;
         height: 40px;
         margin-left: 30px;
         margin-top: 80px;
       }
       .icon{
         margin-right: 50px;
+        /* width: 30px; */
       }
     }
     .line{
@@ -471,7 +496,7 @@ footer{
         }
     .made{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       margin-top: 30px;
       margin-bottom: 30px;
       margin-left: 50px;
@@ -493,3 +518,6 @@ footer{
     .lost{
       display: none;
     }
+    /* .pooo{
+      display: none;
+    } */
